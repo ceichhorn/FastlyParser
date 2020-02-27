@@ -88,7 +88,7 @@ type backend struct {
 }
 
 func main() {
-	filePath := "./services-20200226.json"
+	filePath := "./services.json"
 	fmt.Printf("// reading file %s\n", filePath)
 	file, err1 := ioutil.ReadFile(filePath)
 	if err1 != nil {
